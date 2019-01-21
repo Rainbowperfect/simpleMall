@@ -1,0 +1,31 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/
+mall_common/mall_common.iml
+mall_common/target/
+mall_manager/mall_manager.iml
+mall_manager/mall_manager_interface/mall_manager_interface.iml
+mall_manager/mall_manager_interface/src/main/resources/
+mall_manager/mall_manager_interface/src/test/
+mall_manager/mall_manager_interface/target/
+mall_manager/mall_manager_mapper/mall_manager_mapper.iml
+mall_manager/mall_manager_mapper/target/
+mall_manager/mall_manager_pojo/mall_manager_pojo.iml
+mall_manager/mall_manager_pojo/target/
+mall_manager/mall_manager_service/mall_manager_service.iml
+mall_manager/mall_manager_service/target/
+mall_manager_web/mall_manager_web.iml
+mall_manager_web/src/main/webapp/js/kindeditor-4.1.10/attached/
+mall_manager_web/target/
+mall_mybatis/mall_mybatis.iml
+mall_mybatis/target/
+mall_parent.iml
+Would skip repository simpleMall/
