@@ -10,8 +10,7 @@
     <module>mall_common</module>
     <module>mall_manager</module>
     <module>mall_manager_web</module>
-    <module>mall_mybatis</module>
-      <module>mall_component</module>
+    <module>mall_component</module>
   </modules>
 
   <name>mall_parent</name>
