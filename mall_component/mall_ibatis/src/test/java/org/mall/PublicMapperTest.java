@@ -113,5 +113,6 @@ public class PublicMapperTest {
         int pages = userPageInfo.getPages();
         System.out.println(total+"===="+pages);
 
+        sqlSession.close();
     }
 }

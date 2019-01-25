@@ -1,4 +1,4 @@
-package org.mall.service;
+package org.mall.manager.service;
 
 public interface TestService {
     /**
