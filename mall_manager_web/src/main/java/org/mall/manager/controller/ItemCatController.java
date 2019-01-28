@@ -25,7 +25,8 @@ public class ItemCatController {
     @ResponseBody
     public List<ItemCat> getPages(@PathVariable ("pages")Integer pages,Integer rows){
 
-        List<ItemCat> list = itemCatService.getItemCatByPage(pages, rows);
+        List<ItemCat> list=itemCatService.queryByPage(pages,rows);
+
 
         if (list.size()==0){
             logger.error("没有查询到===");

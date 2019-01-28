@@ -33,11 +33,13 @@ public interface BaseService<T> {
 
     /**
      * 分页查询数据
-     * @param page
+     * @param pages
      * @param rows
      * @return
      */
-    List<T> queryByPage(Integer page,Integer rows);
+    List<T> queryByPage(Integer pages,Integer rows);
+
+    List<T> queryListByPage(Integer pages, Integer rows);
 
     /**
      * 跟据查询条件查询一个数据
